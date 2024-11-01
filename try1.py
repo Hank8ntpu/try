@@ -9,3 +9,4 @@ if WEBHOOK_URL:
     print("Webhook URL 取得成功，發送訊息至 Discord")
 else:
     print("未設定 Webhook URL，請檢查 GitHub Secrets")
+
