@@ -1,5 +1,5 @@
-- name: Run script
-  env:
-    DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-  run: |
-    python ${{ matrix.script }}
+  - name: Run script
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+    run: |
+      python ${{ matrix.script }}
